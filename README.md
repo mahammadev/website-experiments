@@ -2,8 +2,6 @@
 
 Single-page React landing built with CDN scripts and Tailwind CSS for UNEC nəzdində Sosial–İqtisad Kolleci.
 
-The sticky nav contains a visible “Menyu paneli” button (with a hamburger icon) that opens the animated full-screen menu on any screen size.
-
 ## Run locally
 1. Start a simple static server (for example with Python):
    ```bash
