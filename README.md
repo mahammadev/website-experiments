@@ -2,7 +2,7 @@
 
 Single-page React landing built with CDN scripts and Tailwind CSS for UNEC nəzdində Sosial–İqtisad Kolleci.
 
-There is an always-visible menu toggle (top-right floating button) plus the sticky-nav “Menyu paneli” button; either opens the animated full-screen menu on any screen size.
+Mobile uses the top-right floating “Menyu” button; desktop/tablet uses the sticky-nav “Menyu paneli” button. Only one toggle shows per breakpoint so they never fight each other.
 
 ## Run locally
 1. Start a simple static server (for example with Python):
