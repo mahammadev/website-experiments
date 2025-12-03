@@ -66,6 +66,10 @@
             document.removeEventListener('keydown', handleKey);
           };
         }, [isMenuOpen]);
+      const { useMemo } = React;
+
+      function CollegeLanding() {
+        const currentYear = useMemo(() => new Date().getFullYear(), []);
 
         return (
           <div className="min-h-screen bg-slate-50 text-slate-900 antialiased">
@@ -204,6 +208,26 @@
                   </div>
                 </div>
               </div>
+
+                  <div className="flex flex-1 items-center justify-center gap-4 text-slate-700">
+                    <a href="#haqqimizda" className="px-2 py-1 text-xs font-medium text-slate-700 hover:text-slate-950 md:text-sm">
+                      Haqqımızda
+                    </a>
+                    <a href="#xeberler" className="px-2 py-1 text-xs font-medium text-slate-700 hover:text-slate-950 md:text-sm">
+                      Xəbərlər
+                    </a>
+                    <a href="#emuhazire" className="px-2 py-1 text-xs font-medium text-slate-700 hover:text-slate-950 md:text-sm">
+                      E-mühazirə
+                    </a>
+                    <a href="#telebebirliyi" className="px-2 py-1 text-xs font-medium text-slate-700 hover:text-slate-950 md:text-sm">
+                      Tələbə birliyi
+                    </a>
+                  </div>
+                  <button className="whitespace-nowrap rounded-full border border-slate-900 px-4 py-1.5 text-[11px] font-medium tracking-wide text-slate-900">
+                    Müraciət et
+                  </button>
+                </div>
+              </nav>
 
               <section
                 id="haqqimizda"
